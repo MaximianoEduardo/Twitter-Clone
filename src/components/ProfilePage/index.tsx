@@ -1,6 +1,6 @@
-import React from 'react';
-
-import { Container, Banner, Avatar, ProfileData, LocationIcon, CakeIcon, Followage, } from './styles';
+import React from 'react'
+import Feed from '../Feed'
+import { Container, Banner, Avatar, ProfileData, LocationIcon, CakeIcon, Followage, EditButton} from './styles'
 
 const ProfilePage: React.FC = () => {
   return (
@@ -9,9 +9,9 @@ const ProfilePage: React.FC = () => {
           <Avatar/>
       </Banner>
       <ProfileData>
-          {/* <EditButton outlined>
+          <EditButton outlined>
                 Editar Perfil
-          </EditButton> */}
+          </EditButton>
           <h1>Eduardo Maximiano</h1>
           <h2>@edmaxi</h2>
 
@@ -38,6 +38,8 @@ const ProfilePage: React.FC = () => {
         </Followage>
 
       </ProfileData>
+
+      <Feed />
     </Container>
   );
 };
