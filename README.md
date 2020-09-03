@@ -1,44 +1,113 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h4 align="center"> 
+	Twitter Clone Interface
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-layout">Live Code</a> • 
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 Sobre o projeto
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+	Clone da Interface do twitter, apenas com propósito de estudo!!
+        
+    content by @rocketseat-content and @guilhermerodz
+---
 
-### `yarn test`
+## ⚙️ Funcionalidades
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [] Rotas com React Router
+    - [] HomePage
+    - [] Search
+    - [x] Profile
+- [] Integração com back-end
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 💻 Live Code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O projeto esta hospedado 
 
-### `yarn eject`
+**[Twitter](https://twitter-clone-bice.vercel.app/)**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 🎨 Layout
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+O layout da aplicação está disponível no Figma:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://www.figma.com/file/cjNh1bd93pbJBFOza25K7L/Twitter-Clone?node-id=1%3A2">
+  <img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&labelColor=F24E1E&logo=figma&logoColor=white&link=https://figma.com">
+</a>
+
+---
+
+## 🚀 Como executar o projeto
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+#### 🧭 Rodando a aplicação
+
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/MaximianoEduardo/Twitter-Clone.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd Twitter-Clone
+
+# Instale as dependências
+$ npm install or $ yarn install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start or $ yarn start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+```
+
+---
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **Website**  ([React](https://reactjs.org/))
+
+-  **[React](https://pt-br.reactjs.org/)**
+-  **[Typescript](https://www.typescriptlang.org/l)**
+-  **[Styled Components](https://styled-components.com/)**
+
+> Veja o arquivo  [package.json](./package.json)
+
+
+#### **Utilitários**
+
+-   Protótipo:  **[Figma](https://www.figma.com/)**  →  **[Layout](https://www.figma.com/file/cjNh1bd93pbJBFOza25K7L/Twitter-Clone?node-id=1%3A2)**
+-   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)** 
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+👋🏽 [Entre em contato!](https://www.linkedin.com/in/maximiano-eduardo/)
+
+---
